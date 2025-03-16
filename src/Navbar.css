@@ -1,0 +1,52 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    width: 956;
+    padding: 1px 30px;
+    /* border: 1px solid red; */
+}
+
+.nav-data {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    height: inherit;
+    width: 300px;
+    /* border: 1px solid green; */
+}
+
+.lookup-text {
+    color: rgb(243, 81, 162);
+}
+
+.search-bar-div {
+    height: 40px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* border: 1px solid red; */
+}
+
+.search-bar {
+    height: 34px;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.search-btn {
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: rgb(221, 72, 147);
+    color:white;
+    transition: all 0.3s ease-in-out;
+}
+.search-btn:hover{
+    background-color: rgb(184, 63, 124);
+}
+.form{
+    display: flex;
+}
